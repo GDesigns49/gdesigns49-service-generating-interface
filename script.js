@@ -33,6 +33,10 @@ const services = [
     React
     Python`,
   },
+  {
+    service_category: 'Thank you for your time and patronage!',
+    service_type: 'Hope to see u next time.',
+  },
 ];
 
 let currentIndex = 0;
@@ -45,3 +49,4 @@ btn.addEventListener('click', function() {
 
   currentIndex = (currentIndex + 1) % services.length;
 });
+
